@@ -1,0 +1,448 @@
+/*
+Hardee's Jordan Responsive Template
+*/
+
+/* -------------------------------------------- */
+/* ------------------Reset--------------------- */
+
+.headfirst {
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a, abbr, acronym, address, applet, article, aside, audio, b,
+blockquote, big, body, center, canvas, caption, cite, code, command,
+datalist, dd, del, details, dfn, dl, div, dt, em, embed, fieldset,
+figcaption, figure, font, footer, form, h1, h2, h3, h4, h5, h6,
+header, hgroup, html, i, iframe, img, ins, kbd, keygen, label,
+legend, li, meter, nav, object, ol, output, p, pre, progress, q,
+s, samp, section, small, span, strike, strong, sub, sup, table,
+tbody, tfoot, thead, th, tr, td, video, tt, u, ul, var {
+    background: transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    vertical-align: top;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+table, table td {
+    padding: 0;
+    border: none;
+    border-collapse: collapse;
+}
+
+img {
+    vertical-align: top;
+    max-width: 100%;
+}
+
+embed {
+    vertical-align: top;
+}
+
+article, aside, audio, canvas, command, datalist, details, embed,
+figcaption, figure, footer, header, hgroup, keygen, meter, nav,
+output, progress, section, source, video {
+    display: block;
+}
+
+mark, rp, rt, ruby, summary, time {
+    display: inline;
+}
+
+input, textarea {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+iframe {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+input, textarea, select {
+    margin: 0;
+    padding: 0;
+}
+
+/* -------------------------------------------- */
+/* ------------------Font---------------------- */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* -------------------------------------------- */
+/* ------------------Style--------------------- */
+
+html, body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #f2f2f2;
+    color: #333333;
+    font: 12px/25px Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d71920;
+    text-decoration: none;
+}
+
+a.button {
+    cursor: pointer;
+    color: #ffffff;
+    line-height: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    background: #d71920;
+    border-radius: 3px;
+}
+
+a.button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 15px;
+}
+
+a.button:hover {
+    background: #f5b400;
+    color: #000000;
+}
+
+.clear {
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+/* -------------------------------------------- */
+/* ------------------Header-------------------- */
+
+header {
+    background: #000000;
+    border-bottom: 5px solid #d71920;
+}
+
+header .wrap-header {
+    height: 130px;
+}
+
+header #logo {
+    position: absolute;
+    top: 30px;
+    padding: 5px;
+    width: 100%;
+}
+
+nav {
+}
+
+nav .wrap-nav {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    height: 37px;
+    background: #111111;
+    border-left: 3px solid #d71920;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    position: relative;
+    float: left;
+    padding: 6px 5px 0px 5px;
+}
+
+.menu ul li:hover {
+    background: #d71920;
+}
+
+.menu ul li a {
+    font-size: 14px;
+    line-height: 14px;
+    color: #ffffff;
+    display: block;
+    padding: 6px 10px;
+    margin-bottom: 5px;
+    z-index: 6;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.menu ul li:hover a {
+    color: #ffffff;
+}
+
+.minimenu {
+    display: none;
+}
+
+.minimenu {
+    position: relative;
+    margin: 0px;
+    background: #111111;
+}
+
+.minimenu div {
+    overflow: hidden;
+    position: relative;
+    font: 18px/37px 'PT Sans Narrow';
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.minimenu select {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    cursor: pointer;
+}
+
+/* -------------------------------------------- */
+/* ------------------Featured------------------ */
+
+.featured {
+    margin: 30px auto;
+}
+
+.featured .wrap-featured {
+    background: #000000;
+    border: 5px solid #d71920;
+}
+
+.featured .wrap-featured .slider {
+    padding: 10px;
+}
+
+/* -------------------------------------------- */
+/* ------------------Content------------------- */
+
+#content {
+}
+
+#content .wrap-content {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin-top: 30px;
+}
+
+.block01 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.block01 img {
+    border: 5px solid #eeeeee;
+    border-radius: 5px;
+}
+
+.block01 h2 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #d71920;
+    margin-top: 10px;
+}
+
+.block01 p {
+    color: #555555;
+    margin-bottom: 10px;
+}
+
+/* -------------------------------------------- */
+/* ------------------Block 02------------------ */
+
+.block02 {
+    margin: 10px;
+    border-bottom: 1px dashed #d71920;
+    border-top: 1px dashed #d71920;
+}
+
+.block02 p {
+    padding: 30px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 30px;
+    color: #333333;
+}
+
+.block02 a {
+    color: #d71920;
+    font-weight: bold;
+}
+
+/* -------------------------------------------- */
+/* ------------------Block 03------------------ */
+
+.block03 {
+    margin: 30px 0;
+}
+
+.block03 h2 {
+    font-size: 18px;
+    color: #d71920;
+}
+
+.block03 img {
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+/* -------------------------------------------- */
+/* ------------------Footer-------------------- */
+
+footer {
+    background-color: #000000;
+    margin-top: 30px;
+    border-top: 5px solid #d71920;
+}
+
+footer .wrap-footer {
+    padding: 20px 0px;
+    color: #ffffff;
+}
+
+footer .box {
+}
+
+footer .heading {
+    padding: 5px;
+    border-bottom: 3px solid #f5b400;
+}
+
+footer .heading h2 {
+    font-size: 22px;
+    font-weight: normal;
+    display: inline;
+    padding: 0 5px;
+    color: #ffffff;
+}
+
+footer .content {
+    padding: 5px;
+}
+
+footer .content a {
+    color: #f5b400;
+    text-decoration: none;
+}
+
+footer .content .gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+footer .content .gallery a {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+footer .content .gallery img {
+    float: none;
+    display: block;
+    width: 180px;
+    height: 99px;
+    object-fit: cover;
+    padding: 5px;
+    border: 1px solid #f5b400;
+    margin: 0;
+}
+
+/* -------------------------------------------- */
+/* ------------------Copyright----------------- */
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #333333;
+}
+
+.copyright p {
+    color: #ffffff;
+}
+
+.copyright a {
+    color: #f5b400;
+    text-decoration: underline;
+}
+
+/* -------------------------------------------- */
+/* ------------------Hardee's Colors---------- */
+
+/*
+RED    = #d71920
+YELLOW = #f5b400
+BLACK  = #000000
+WHITE  = #ffffff
+*/
+
+/* -------------------------------------------- */
+/* ------------------Responsive---------------- */
+
+@media screen and (max-width: 767px) {
+
+    nav .wrap-nav {
+        width: 100%;
+        right: 0;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .minimenu {
+        display: block;
+    }
+
+    footer .content .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .content .gallery img {
+        width: 180px;
+        height: 99px;
+    }
+}
